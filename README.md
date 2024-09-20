@@ -3,7 +3,7 @@
 
 Este proyecto es una **calculadora binaria** que permite realizar operaciones aritméticas básicas (suma, resta, multiplicación y división), y conversiones entre **números binarios** y **decimales**. Además, cuenta con un **teclado numérico interactivo** que varía según el tipo de número seleccionado, con opción para borrar el último dígito y limpiar todos los campos.
 
-Puebalo en https://luis-alain.github.io/Calculadora-Binaria/
+**Puebalo en** https://66edaf16ef2baf201323fd3b--cozy-figolla-1e841d.netlify.app/
 
 ## Características
 
