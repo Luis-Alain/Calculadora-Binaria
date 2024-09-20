@@ -28,7 +28,7 @@ A continuación se muestran algunas capturas de pantalla del proyecto:
 
 **Pantalla Principal:**
 
-![image](https://github.com/user-attachments/assets/955b954d-0afe-496b-b824-11f791263052)
+![image](https://github.com/user-attachments/assets/29b21a6e-860e-4ded-bb41-b18eee9d200f)
 
 
 ## Tecnologías Utilizadas
