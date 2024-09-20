@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Binaria</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora Binaria</h2>
+
+        <input type="text" id="binary1" placeholder="Primer número binario" readonly>
+        <input type="text" id="binary2" placeholder="Segundo número binario" readonly>
+
+        <button onclick="performOperation('+')">Sumar</button>
+        <button onclick="performOperation('-')">Restar</button>
+        <button onclick="performOperation('*')">Multiplicar</button>
+        <button onclick="performOperation('/')">Dividir</button>
+    
+        <br>
+
+        <h3>Convertir Binario a Decimal</h3>
+        <input type="text" id="binaryInput" placeholder="Número binario" readonly>
+        <button onclick="binaryToDecimal()">Convertir a Decimal</button>
+
+        <h3>Convertir Decimal a Binario</h3>
+        <input type="text" id="decimalInput" placeholder="Número decimal" readonly>
+        <button onclick="decimalToBinary()">Convertir a Binario</button>
+
+        <button id="clearBtn" onclick="clearAll()">Limpiar</button>
+        <button id="backspaceBtn" onclick="deleteLastCharacter()">Borrar</button>
+    
+        <div class="keyboard">
+            <h3>Teclado Numérico</h3>
+            <div id="numeric-keyboard"></div>
+        </div>
+
+        <div id="result"></div>
+    </div>
+</body>
+
+<script src="/index.js"></script>
+
+</html>
